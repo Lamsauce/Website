@@ -1,0 +1,106 @@
+* {
+    font-family: Lato;
+    scrollbar-color: black #1b1b1e; /* Firefox */
+  }
+  
+  body {
+    background-color: #1b1b1e;
+    overflow-y: scroll;
+  }
+  
+  ::selection { 
+    color: none;
+    background: none; 
+  }
+  
+  body::-webkit-scrollbar { /* Chrome, Edge, Safari */
+     background: #1b1b1e;
+  }
+  
+  *::-webkit-scrollbar-thumb { /* Chrome, Edge, Safari */
+    background-color: black;
+    border: 3px solid #1b1b1e;
+  }
+  
+  a {
+    color: white;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: red;
+    
+  }
+  
+  /* NAME */
+  h1 {
+    margin-bottom: 25px;
+    min-width: 600px;
+  }
+  
+  name {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* SELECT CATEGORY */
+  .container {
+    text-align: center;
+    min-width: 600px;
+  }
+  
+  .Row {
+    display: inline-block;
+  }
+  
+  .Column {
+    display: inline-block;
+    background-color: #96031a;
+    border: solid #96031a 3px;
+    color: white;
+    width: 300px; 
+    margin: 5px;
+    -webkit-transition: background-color 0.4s, border 0.45s, color 0.4s;
+    transition: background-color 0.4s, border 0.45s, color 0.4s;
+  }
+  
+  .Column:hover {
+    border: solid rgb(223, 223, 223) 3px;
+    color: rgb(223, 223, 223);
+    background-color: #66000f;
+    text-shadow: 0 0 5px black;
+    cursor: pointer;
+  }
+  
+  /* CONTENT */
+  .contentArea {
+    display: inline-block;
+    width: 100%;
+    max-width: 940px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  p {
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-top: 0px;
+  }
+  
+  #skill {
+    letter-spacing: 2px;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+  
+  .remove-margin {
+    margin-bottom: 5px;
+  }
+  
+  #email {
+    text-decoration: underline;
+  }
