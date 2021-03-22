@@ -101,6 +101,26 @@
     margin-bottom: 5px;
   }
   
+  h5 {
+    margin: 0px;
+  }
+
+  .right-link {
+    float: right;
+  }
+
+  .project-title{
+    margin-bottom: 0px;
+  }
+
   #email {
     text-decoration: underline;
+  }
+
+  .justify-false {
+    text-align: center;
+  }
+
+  .short-hr {
+      width: 200px;
   }
